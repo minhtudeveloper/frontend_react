@@ -1,0 +1,55 @@
+{
+  "plugins": ["react", "prettier"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "rules": {
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "curly": [2, "all"],
+    "camelcase": [
+      2,
+      {
+        "properties": "always"
+      }
+    ],
+    "eqeqeq": [2, "smart"],
+    "no-unused-vars": ["error", { "vars": "all" }],
+    "one-var-declaration-per-line": [2, "always"],
+    "new-cap": 2,
+    "no-case-declarations": 0,
+    "no-console": 1,
+    "no-empty-pattern": "error",
+    "react/react-in-jsx-scope": 0,
+    "prettier/prettier": [
+      "warn",
+      {
+        "arrowParens": "avoid",
+        "trailingComma": "none",
+        "endOfLine": "lf",
+        "tabWidth": 2,
+        "printWidth": 80,
+        "useTabs": false
+      }
+    ]
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "arguments": true
+  }
+}
