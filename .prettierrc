@@ -1,3 +1,8 @@
 {
-  "trailingComma": "none"
+  "prettier/prettier": [
+    "error",
+    {
+      "endOfLine": "auto"
+    }
+  ]
 }

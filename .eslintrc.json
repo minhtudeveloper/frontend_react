@@ -9,7 +9,7 @@
         "SwitchCase": 1
       }
     ],
-    "linebreak-style": [2, "unix"],
+    "linebreak-style": 0,
     "semi": [2, "always"],
     "curly": [2, "all"],
     "camelcase": [
@@ -31,8 +31,8 @@
       {
         "arrowParens": "avoid",
         "trailingComma": "none",
-        "endOfLine": "lf",
         "tabWidth": 2,
+        "endOfLine": "auto",
         "printWidth": 80,
         "useTabs": false
       }
